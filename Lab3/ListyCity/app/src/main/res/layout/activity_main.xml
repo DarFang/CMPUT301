@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/edit_list"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextAddCity"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/city_name"
+            android:inputType="textPersonName" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/edit_list2"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/add_city"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:onClick="addCity"
+            android:text="@string/add_city" />
+        <Button
+            android:id="@+id/delete_city"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+
+
+            android:onClick="deleteCity"
+            android:text="@string/delete_city" />
+
+    </LinearLayout>
+
+
+
+    <ListView
+
+        android:id="@+id/city_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
