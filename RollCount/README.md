@@ -1,0 +1,25 @@
+This assingment required us to make a rollcount for any dice specified. The session contained a histogram, stats, date, name of the game. At the startup of the app, there will be a list of game sessions. You can add game sessions at the bottom. When a sesssion is clicked it will go to that specific session. The session will have many buttons to do various commands. To add a count to one of the results, press the result seen on the list. There is an undo function, delete, save state, show histogram, edit, show stats. The histogram shows the histogram of all rolls possible for that specific session. The session shows the min, max average of the roll counts. 
+
+Restrictions and Issues: The specifications does ask to add rolls, as I have only implemented that only within the session class, I did not put it on the activity. The number of max dice is 3, the selection of result is limited to 20 as I did not implement the GameSessionActivity to be able to scroll down the list. You can technically add a 100 side die(with only being able to manipulate 20 of the 100 roll counts). 
+
+Files: 
+MainActivity: Main gui containing a list of sessions
+GameSessionActivity: gui of a session
+CustomList: data of the session displayed in MainActivity
+Histogram: list of rolls[]: Roll
+histogramFragment: display of histogram
+SesssionFragment: create session display
+StatsFragment: display of stats
+Roll: contains 2 ints: result, count
+GameSession: contains histogram, properties of the games like dice 
+
+
+Demo:
+
+
+https://github.com/DarFang/RollCount/assets/56571687/6d693d8a-24f1-402c-9b34-397592bbb25f
+
+Cites:
+Saving files in a folder and loading them:
+Author: Andrei Suvorkov from https://stackoverflow.com/questions/5694385/getting-the-filenames-of-all-files-in-a-folder
+

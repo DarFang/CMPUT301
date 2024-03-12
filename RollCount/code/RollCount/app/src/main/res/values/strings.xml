@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RollCount</string>
+    <string name="Name123">Name</string>
+    <string name="name_label">Name</string>
+    <string name="calender_label">Date</string>
+    <string name="side_label"># of Sides</string>
+    <string name="dice_label"># of Die</string>
+    <string name="six">6</string>
+    <string name="two">2</string>
+</resources>
